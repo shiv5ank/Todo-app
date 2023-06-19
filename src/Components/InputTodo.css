@@ -1,0 +1,30 @@
+.Input_Container{
+    margin-top: 40px;
+}
+input{
+    border: none;
+}
+.input_box{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+    margin: 20px;
+    box-shadow: 2px 2px 5px 2px black;
+    border-radius: 5px;
+    padding: 5px 30px;
+    
+}
+
+.add{
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.add:hover{
+    color: green;
+    padding-top: 6px;
+    height: 20px;
+    
+}

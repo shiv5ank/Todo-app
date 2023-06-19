@@ -1,0 +1,38 @@
+.TodoItem_Container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7px 40px;
+    margin: 3px;
+    background-color: rgb(232, 254, 210);
+}
+.input_part{
+    display: flex;
+    gap: 20px;
+}
+.edit_part{
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+.show-edit{
+    display: none;
+}
+
+.checkbox{
+    cursor: pointer;
+}
+
+.update{
+    border-radius: 10px;
+    background-color: rgb(97, 185, 185);
+    border: 0.5px solid rgb(0, 206, 117);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
